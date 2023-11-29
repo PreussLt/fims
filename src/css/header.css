@@ -1,0 +1,42 @@
+/* Header.css */
+
+header {
+    background-color: #333; /* Hintergrundfarbe */
+    color: #fff; /* Textfarbe */
+    padding: 15px; /* Innenabstand */
+    display: flex; /* Verwendet Flexbox für die Ausrichtung */
+    align-items: center; /* Zentriert die Elemente vertikal */
+    justify-content: space-between; /* Platz zwischen den Elementen */
+}
+
+h1 {
+    margin: 0; /* Entfernt den standardmäßigen Margin für den h1-Tag */
+    padding-right: 10%;
+}
+
+nav {
+    display: flex; /* Verwendet Flexbox für die Navigation */
+    align-items: center; /* Zentriert die Navigation vertikal */
+}
+
+nav ul {
+    list-style: none; /* Entfernt die Standardliste-Stilelemente */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Verwendet Flexbox für die Liste */
+}
+
+nav ul li {
+    margin-right: 25px; /* Abstand zwischen den Listenelementen */
+}
+
+nav a {
+    text-decoration: none; /* Entfernt die Unterstreichung der Links */
+    color: #fff; /* Textfarbe der Links */
+    font-weight: bold; /* Fettdruck für die Links */
+}
+
+img {
+    height: 75px; /* Höhe des Bildes */
+    margin-left: auto; /* Setzt den linken Rand des Bildes auf auto, um es rechts auszurichten */
+}

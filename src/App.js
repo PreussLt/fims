@@ -16,6 +16,13 @@ function App() {
           {/*Einsätze*/}
           <Route path="/neuerEinsatz" element={<CreateMission/>} />
 
+          {/* Externe Absprünge*/}
+          <Route path="/WebsiteFFWHBG" component={() => {
+              window.open('https://feuerwehr.herrenberg.de/');
+              return null;
+          }}/>
+
+
 
       </Routes>
   );

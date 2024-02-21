@@ -11,7 +11,7 @@ const Header = () => {
                 <ul>
                     <li onClick={() => scroll("Einsatzberichte")}><a >Einsatzberichte</a></li>
                     <li><a onClick={() => scroll("DME")} >Melder Verwaltung</a></li>
-                    <li><a href="#">Links</a></li>
+                    <li><a onClick={() => scroll("Link")}>Links</a></li>
                 </ul>
 
             </nav>

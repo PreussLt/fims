@@ -1,42 +1,35 @@
 // App.js
 import React from 'react';
 import '../css/groups.css';
-import pager from '../icons/pager.png';
+import web from '../icons/web.webp';
 
 
-const dme = () => {
+const link = () => {
     return (
         <div className="Group">
 
             {/* Gruppe 1 */}
-            <h2 className="group-title" id="DME">Melderverwaltung</h2>
+            <h2 className="group-title" id="Link">Links</h2>
             <div className="group">
 
-                <a href={"neuerEinsatz"}>
+                <a href={"https://feuerwehr.herrenberg.de/"}>
                     <button className="box">
-                    <img alt="icon" className="icon"  src={pager}/> <br/>
-                    <h4>Melder Liste einsehen</h4>
+                    <img alt="icon" className="icon"  src={web}/> <br/>
+                    <h4>Webseite FFW Herenberg</h4>
                     </button>
                 </a>
 
                 <a href={"EinsatzBearbeiten"}>
                     <button className="box">
-                        <img alt="icon" className="icon"  src={pager}/> <br/>
+                        <img alt="icon" className="icon"  src={web}/> <br/>
                         <h4>Bericht bearbeiten/ anzeigen</h4>
                     </button>
                 </a>
 
                 <a href={"EinsatzBearbeiten"}>
                     <button className="box">
-                        <img alt="icon" className="icon"  src={pager}/> <br/>
+                        <img alt="icon" className="icon"  src={web}/> <br/>
                         <h4>Alle Berichte Anzeigen</h4>
-                    </button>
-                </a>
-
-                <a href={"EinsatzBearbeiten"}>
-                    <button className="box">
-                        <img alt="icon" className="icon"  src={pager}/> <br/>
-                        <h4>Von mir zugewiesene Berichte</h4>
                     </button>
                 </a>
 
@@ -45,4 +38,4 @@ const dme = () => {
     );
 }
 
-export default dme;
+export default link;

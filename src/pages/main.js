@@ -2,6 +2,7 @@ import '../css/index.css';
 import Header from "../modules/header";
 import Group from "../modules/group";
 import Dme from "../modules/dme";
+import Link from "../modules/link";
 
 function Main() {
     return (
@@ -9,6 +10,7 @@ function Main() {
         <Header/>
         <Group/>
         <Dme/>
+        <Link/>
     </div>
 
 );
